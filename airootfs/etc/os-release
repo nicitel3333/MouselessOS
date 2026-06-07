@@ -1,0 +1,7 @@
+NAME="MouselessOS"
+PRETTY_NAME="MouselessOS"
+ID=mouselessos
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="1;32"
+HOME_URL="https://github.com/nicitel3333/MouselessOS"

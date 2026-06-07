@@ -1,0 +1,9 @@
+out/
+work/
+*.iso
+*.img
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.swp
+*.swo
+.vim/

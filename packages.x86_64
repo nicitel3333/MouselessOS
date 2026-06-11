@@ -30,6 +30,7 @@ wireless-regdb
 # audio
 alsa-utils
 sof-firmware
+pulsemixer
 
 # terminal + shell
 alacritty

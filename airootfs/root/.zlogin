@@ -1,6 +1,3 @@
-# fix for screen readers
-if grep -Fqa 'accessibility=' /proc/cmdline &> /dev/null; then
-    setopt SINGLE_LINE_ZLE
+if [ -z "$DISPLAY" ] && [ "$(tty)" = "/dev/tty1" ]; then
+    startx
 fi
-
-~/.automated_script.sh

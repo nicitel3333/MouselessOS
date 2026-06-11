@@ -26,6 +26,7 @@ networkmanager
 openssh
 iw
 wireless-regdb
+ronema
 
 # audio
 alsa-utils
@@ -83,3 +84,7 @@ rsync
 git
 reflector
 atuin
+gsimplecal
+wireless_tools
+iputils
+python

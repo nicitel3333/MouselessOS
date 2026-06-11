@@ -1,0 +1,39 @@
+[ipv6]
+command=~/.config/i3blocks/scripts/ipv6.py
+interval=30
+[separator]
+command=echo "|"
+interval=once
+color=#00FF00
+[network]
+command=~/.config/i3blocks/scripts/network.py
+interval=5
+[separator]
+command=echo "|"
+interval=once
+color=#00FF00
+[cpu]
+command=~/.config/i3blocks/scripts/cpu.py
+interval=3
+[separator]
+command=echo "|"
+interval=once
+color=#00FF00
+[memory]
+command=~/.config/i3blocks/scripts/memory.py
+interval=5
+[separator]
+command=echo "|"
+interval=once
+color=#00FF00
+[date]
+command=~/.config/i3blocks/scripts/date.py
+interval=1
+color=#00FF00
+[separator]
+command=echo "|"
+interval=once
+color=#00FF00
+[volume]
+command=~/.config/i3blocks/scripts/volume.py
+interval=1

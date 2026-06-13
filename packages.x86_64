@@ -26,7 +26,6 @@ networkmanager
 openssh
 iw
 wireless-regdb
-ronema
 
 # audio
 alsa-utils
@@ -88,3 +87,4 @@ gsimplecal
 wireless_tools
 iputils
 python
+syslinux

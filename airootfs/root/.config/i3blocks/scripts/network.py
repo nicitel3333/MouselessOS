@@ -9,7 +9,7 @@ def run(cmd):
 
 button = os.environ.get("BLOCK_BUTTON")
 if button == "1":
-    subprocess.Popen(["ronema"])
+    subprocess.Popen(["alacritty", "--class", "nema-popup,nema-popup", "-e", "nema"])
 elif button == "3":
     if os.path.exists(TOGGLE_FILE):
         os.remove(TOGGLE_FILE)

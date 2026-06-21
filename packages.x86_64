@@ -69,6 +69,8 @@ firefox
 mpv
 zathura
 zathura-pdf-mupdf
+vlc
+playerctl
 
 # fonts
 ttf-jetbrains-mono
